@@ -1,1 +1,6 @@
+mvn clean
+
+##The mvn compiler:compile command in Maven is used to compile the source code of a Maven project. 
+    It is part of the Maven Compiler Plugin, which handles the task of compiling Java source files.
+mvn compiler:compile
 
