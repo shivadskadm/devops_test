@@ -4,3 +4,24 @@ mvn clean
     It is part of the Maven Compiler Plugin, which handles the task of compiling Java source files.
 mvn compiler:compile
 
+mvn package --> package the compiled code and other resources into a distributable format, such as a JAR, WAR, or EAR file. 
+mvn install
+
+mvn deploy
+# deploy command in Maven is used to compile the code, run tests, package the artifact,
+and then deploy the packaged artifact to a remote repository.
+
+mvn validate
+
+mvn dependency:tree
+
+mvn dependency:analyze 
+## this command in Maven is used to analyze the dependencies of a project to identify unused declared 
+dependencies and detect used but undeclared dependencies. 
+
+mvn test
+mvn compile
+mvn verify
+
+mvn -help
+
